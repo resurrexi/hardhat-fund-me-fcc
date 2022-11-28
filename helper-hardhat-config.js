@@ -1,3 +1,6 @@
+const DECIMALS = 8;
+const INITIAL_ANSWER = 200000000000;
+
 const networkConfig = {
   5: {
     name: "goerli",
@@ -7,4 +10,6 @@ const networkConfig = {
 
 module.exports = {
   networkConfig,
+  DECIMALS,
+  INITIAL_ANSWER,
 };
